@@ -1,5 +1,11 @@
 @import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html{
-  font-size: 1rem;
+html, body{
+  font: 20px/1.172 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
 }
