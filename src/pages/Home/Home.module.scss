@@ -1,0 +1,19 @@
+.homeContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.homeDescription{
+  display: flex;
+  flex-direction: column;
+  margin-right: 7.5rem;
+  margin-top: 2rem;
+}
+
+.homeImage{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+
+}
