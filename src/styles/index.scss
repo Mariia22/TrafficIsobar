@@ -1,11 +1,33 @@
 @import '~normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import './variables.scss';
 
 html, body{
   font: 20px/1.172 'Roboto', sans-serif;
+  background-color: $primary-background;
+  color: $primary-color;
 }
 
 .container{
   max-width: 1180px;
   margin: 0 auto;
+  padding-top: 1.8rem;
 }
+
+a {
+  text-decoration: none;
+  margin-right: 1.3rem;
+
+&:visited{
+  color:$primary-color;
+}
+}
+
+nav{
+  display: flex;
+
+.active{
+ border-bottom: 1px solid red;
+}
+}
+ 
