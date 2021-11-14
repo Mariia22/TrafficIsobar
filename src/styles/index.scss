@@ -37,8 +37,7 @@ nav{
     display: block;
     margin-top: 0.3rem;
 }
-}
-}
+}}
 
 h1{
   font-size: 3rem;
@@ -66,7 +65,8 @@ h1{
 h2{
   font-size: 2rem;
   font-weight: bold;
-  line-height: 2.34;
+  line-height: 2;
+  margin: 0;
 }
 
 button{
@@ -87,6 +87,5 @@ p{
 }
 
 footer{
-  padding: 2.2rem 10.5rem;
-
+  padding-top: 3.7rem;
 }
