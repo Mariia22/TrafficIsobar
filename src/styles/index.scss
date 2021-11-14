@@ -16,7 +16,7 @@ html, body{
 
 a {
   text-decoration: none;
-  margin-right: 1.3rem;
+  margin: 0.5rem 0 0 1.3rem;
 
 &:visited{
   color:$primary-color;
@@ -25,9 +25,18 @@ a {
 
 nav{
   display: flex;
+  position: relative;
 
 .active{
- border-bottom: 1px solid $primary-highlight;
+  &::after{
+    position: absolute;
+    content: '';
+    width: 4rem;
+    height: 1px;
+    background-color:$primary-highlight;
+    display: block;
+    margin-top: 0.3rem;
+}
 }
 }
 
