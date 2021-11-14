@@ -6,12 +6,20 @@ html, body{
   font: 20px/1.172 'Roboto', sans-serif;
   background-color: $primary-background;
   color: $primary-color;
+
+  @media (max-width: 320px) {
+    font: 16px/1 'Roboto', sans-serif;
+  }
 }
 
 .container{
   max-width: 1180px;
   margin: 0 auto;
   padding-top: 1.8rem;
+  @media (max-width: 1180px) {
+    padding-left:4rem;
+    padding-right:4rem;
+  }
 }
 
 a {
@@ -20,6 +28,9 @@ a {
 
 &:visited{
   color:$primary-color;
+}
+@media (max-width: 320px) {
+  margin: 2rem 0.2rem;
 }
 }
 
@@ -36,13 +47,12 @@ nav{
     background-color:$primary-highlight;
     display: block;
     margin-top: 0.3rem;
-}
-}}
+}}}
 
 h1{
   font-size: 3rem;
   font-weight: bold;
-  line-height: 3,5rem;
+  line-height: 3.5rem;
   color:$primary-highlight;
   text-transform: uppercase;
   text-align: center;
@@ -60,6 +70,29 @@ h1{
     margin-left: 1.4rem;
     margin-right: 1.4rem;
   }
+
+  @media (max-width: 768px) {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  &::before,
+  &::after{
+    width: 2.8rem;
+    height: 3px;
+  }
+}
+
+  @media (max-width: 320px) {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  
+    &::before,
+    &::after{
+      width: 1.3rem;
+      height: 2px;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
 }
 
 h2{
@@ -67,6 +100,13 @@ h2{
   font-weight: bold;
   line-height: 2;
   margin: 0;
+
+  @media (max-width: 320px) {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
 }
 
 button{
@@ -84,8 +124,10 @@ button{
 p{
   font-size: 1.2rem;
   line-height: 1.7rem;
+  text-align: justify;
 }
 
 footer{
   padding-top: 3.7rem;
+  padding-bottom: 3.7rem;
 }

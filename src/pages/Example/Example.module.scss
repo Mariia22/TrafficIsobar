@@ -9,4 +9,9 @@
   height: 258px;
   margin-bottom: 2.2rem;
   object-fit: contain;
+
+  @media (max-width: 320px) {
+    width:200px;
+    height: 200px;
+  }
 }
