@@ -1,28 +1,33 @@
-import React, { useEffect } from 'react'
-import axios from 'axios'
+import React, { useState, useEffect } from 'react'
 import './../../styles/index.scss'
-import Foto from './../../images/foto.jpeg'
 import style from './Example.module.scss'
+import { getImage } from '../../api/api'
+import Loading from './../../images/loading.webp'
 
 const Example = () => {
-  async function makeGetRequest() {
-    let res = await axios.get('https://docs.thecatapi.com/');
+  const [image, setImage] = useState(Loading);
 
-    let data = res.data;
-    console.log(data);
+  async function makeGetRequest() {
+    let catImage = await getImage();
+    setImage(catImage);
   }
 
   useEffect(() => {
     makeGetRequest()
   }, [])
 
+  function updateImage() {
+    setImage(Loading);
+    makeGetRequest();
+  }
+
   return (
     <div>
       <h1>Пример</h1>
       <h2>Картинка с котом</h2>
       <div className={style.exampleContainer} >
-        <img src={Foto} alt="Фото сотрудника" className={style.exampleImage} />
-        <button>Загрузить другую</button>
+        <img src={image} alt="Фото кота" className={style.exampleImage} />
+        <button onClick={updateImage}>Загрузить другую</button>
       </div>
 
     </div>
