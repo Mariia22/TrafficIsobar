@@ -7,8 +7,8 @@ html, body{
   background-color: $primary-background;
   color: $primary-color;
 
-  @media (max-width: 320px) {
-    font: 16px/1 'Roboto', sans-serif;
+  @media (max-width: 425px) {
+    font: 12px/1 'Roboto', sans-serif;
   }
 }
 
@@ -37,6 +37,7 @@ a {
 
 nav{
   display: flex;
+  align-items: center;
   position: relative;
 
 .active{
@@ -48,7 +49,8 @@ nav{
     background-color:$primary-highlight;
     display: block;
     margin-top: 0.3rem;
-}}}
+}}
+}
 
 h1{
   font-size: 3rem;
