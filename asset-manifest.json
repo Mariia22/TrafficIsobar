@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/trafficisobar/static/css/main.7b3e5722.chunk.css",
-    "main.js": "/trafficisobar/static/js/main.fbc4665e.chunk.js",
-    "main.js.map": "/trafficisobar/static/js/main.fbc4665e.chunk.js.map",
-    "runtime-main.js": "/trafficisobar/static/js/runtime-main.f77ec00f.js",
-    "runtime-main.js.map": "/trafficisobar/static/js/runtime-main.f77ec00f.js.map",
-    "static/css/2.3c526f5d.chunk.css": "/trafficisobar/static/css/2.3c526f5d.chunk.css",
-    "static/js/2.2b9e4184.chunk.js": "/trafficisobar/static/js/2.2b9e4184.chunk.js",
-    "static/js/2.2b9e4184.chunk.js.map": "/trafficisobar/static/js/2.2b9e4184.chunk.js.map",
-    "index.html": "/trafficisobar/index.html",
-    "static/css/2.3c526f5d.chunk.css.map": "/trafficisobar/static/css/2.3c526f5d.chunk.css.map",
-    "static/css/main.7b3e5722.chunk.css.map": "/trafficisobar/static/css/main.7b3e5722.chunk.css.map",
-    "static/js/2.2b9e4184.chunk.js.LICENSE.txt": "/trafficisobar/static/js/2.2b9e4184.chunk.js.LICENSE.txt",
-    "static/media/foto.6b3c3134.jpeg": "/trafficisobar/static/media/foto.6b3c3134.jpeg",
-    "static/media/loading.154a8273.webp": "/trafficisobar/static/media/loading.154a8273.webp"
+    "main.css": "/TrafficIsobar/static/css/main.7b3e5722.chunk.css",
+    "main.js": "/TrafficIsobar/static/js/main.1e94164d.chunk.js",
+    "main.js.map": "/TrafficIsobar/static/js/main.1e94164d.chunk.js.map",
+    "runtime-main.js": "/TrafficIsobar/static/js/runtime-main.5dc7bfff.js",
+    "runtime-main.js.map": "/TrafficIsobar/static/js/runtime-main.5dc7bfff.js.map",
+    "static/css/2.3c526f5d.chunk.css": "/TrafficIsobar/static/css/2.3c526f5d.chunk.css",
+    "static/js/2.2b9e4184.chunk.js": "/TrafficIsobar/static/js/2.2b9e4184.chunk.js",
+    "static/js/2.2b9e4184.chunk.js.map": "/TrafficIsobar/static/js/2.2b9e4184.chunk.js.map",
+    "index.html": "/TrafficIsobar/index.html",
+    "static/css/2.3c526f5d.chunk.css.map": "/TrafficIsobar/static/css/2.3c526f5d.chunk.css.map",
+    "static/css/main.7b3e5722.chunk.css.map": "/TrafficIsobar/static/css/main.7b3e5722.chunk.css.map",
+    "static/js/2.2b9e4184.chunk.js.LICENSE.txt": "/TrafficIsobar/static/js/2.2b9e4184.chunk.js.LICENSE.txt",
+    "static/media/foto.6b3c3134.jpeg": "/TrafficIsobar/static/media/foto.6b3c3134.jpeg",
+    "static/media/loading.154a8273.webp": "/TrafficIsobar/static/media/loading.154a8273.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.f77ec00f.js",
+    "static/js/runtime-main.5dc7bfff.js",
     "static/css/2.3c526f5d.chunk.css",
     "static/js/2.2b9e4184.chunk.js",
     "static/css/main.7b3e5722.chunk.css",
-    "static/js/main.fbc4665e.chunk.js"
+    "static/js/main.1e94164d.chunk.js"
   ]
 }
