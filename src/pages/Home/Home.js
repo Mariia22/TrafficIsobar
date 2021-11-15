@@ -10,10 +10,8 @@ const Home = () => {
       <div className={style.homeContainer}>
         <div className={style.homeDescription}>
           <h2>Мария Ушакова</h2>
-          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
-            similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-            rerum facilis est et expedita distinctio.
+          <p>Около 2-х лет назад нашла в интернете HTMLAcademy и прошла задания на бесплатных тренажерах.  Меня привели в восторг, скорость развития технологий и возможности языков HTML и CSS. Затем добавила в копилку знаний JS и React, стала развивать небольшие pet-проекты.
+            Traffic Isobar привлек меня интересными реализованными работами, с которыми я ознакомилась на официальном сайте. Мне хотелось бы поучаствовать в создании подобных проектов вместе с вашей крутой командой профессионалов.
           </p>
           <button>Смотреть работу</button>
         </div>
